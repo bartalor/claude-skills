@@ -1,5 +1,6 @@
 ---
 name: blame-the-prompt
+disable-model-invocation: true
 description: Use when the user expresses dissatisfaction, frustration, or correction about something you just did ("why did you...", "stop doing that", "don't do X", "that's annoying", "you keep...", etc.), OR when you had to ask for clarification because a prompt didn't give you enough information to act. Instead of apologizing or promising to do better next time, investigate which instruction file (a skill's SKILL.md, a CLAUDE.md, settings.json, the system prompt, the agent definition) caused the behavior — or failed to supply the missing context — and tell the user exactly what to change so the next session behaves differently.
 ---
 
